@@ -1,0 +1,52 @@
+1.Verifique si existen cmdlets que permitan convertir la salida de otro cmdlet a formato HTML.
+R/ 
+	▬ ConvertTo-Html
+
+2.Verifique cuáles cmdlets permiten dirigir la salida hacia una impresora, o hacia un archivo.
+R/ 
+	▬ Out-Printer
+	▬ Out-File
+	
+
+3.Verifique cuántos cmdlets sirven para gestionar procesos.
+R/
+	▬ 11 procesos
+
+4.Cuál cmdlet podría usarse para escribir una entrada en un log de eventos?
+R/
+	▬ New-EventLog
+	▬ Write-EventLog
+
+5.Cuáles cmdlets pueden emplearse para gestionar alias?
+R/
+	▬ Export-Alias
+	▬ Get-Alias
+	▬ Import-Alias
+	▬ New-Alias
+	▬ Set-Alias
+
+6.Hay alguna manera de llevar un registro (transcript) de una sesión de Powershell, y de grabar dicho registro en un archivo?
+R/
+	▬ Start-Transcript 
+
+7.Cómo se pueden obtener los 100 registros más recientes del log de eventos SECURITY del sistema?
+R/
+	▬ Get-EventLog -LogName "Security" -Newest 100
+
+8.Existe alguna manera de obtener la lista de los servicios que se están ejecutando en un computador remoto?
+R/
+	▬ Get-Service -ComputerName "DESKTOP-7DD6IMA"
+
+9.Existe alguna manera de obtener la lista de procesos de un computador remoto?
+R/
+	▬ Get-Process -ComputerName "DESKTOP-7DD6IMA"
+
+10.Revise la ayuda del cmdlet Out-File. Cuál es el tamaño de línea que emplea este cmdlet por omisión?
+Existe algún parámetro que permita cambiar dicho tamaño?
+R/
+	▬ 80 caracteres
+	▬ Si, el parámetro se llama "Width" ::  Out-File procesos.txt -Width 200
+
+11.Por omisión, Out-File sobreescribe el archivo de salida, en caso de que exista. Existe algún parámetro que impida la sobreescritura de un archivo existente?
+R/
+	▬ Si, el parámetro -NoClobber :: Out-File procesos.txt -NoClobber
