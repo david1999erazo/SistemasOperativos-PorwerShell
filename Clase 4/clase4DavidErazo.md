@@ -3,7 +3,7 @@
 ## David Alejandro Erazo Ochoa
 ## Código: A00130528
 
-### 1.Mostrar una tabla de procesos que incluya únicamente los nombres de los procesos, sus IDs, y si están respondiendo a Windows (la propiedad Responding muestra eso). Haga que la tabla tome el mínimo de espacio horizontal, pero no permita que la información se trunque.
+#### 1.Mostrar una tabla de procesos que incluya únicamente los nombres de los procesos, sus IDs, y si están respondiendo a Windows (la propiedad Responding muestra eso). Haga que la tabla tome el mínimo de espacio horizontal, pero no permita que la información se trunque.
 
 ```powershell
 Get-Process | ft -Property name,id,Responding -Wrap
