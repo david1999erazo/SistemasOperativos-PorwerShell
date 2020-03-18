@@ -1,0 +1,476 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20200317221717
+Nombre de usuario: DESKTOP-KNT5JNA\David Erazo
+Usuario RunAs: DESKTOP-KNT5JNA\David Erazo
+Nombre de la configuración: 
+Máquina: DESKTOP-KNT5JNA (Microsoft Windows NT 10.0.18362.0)
+Aplicación host: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Id. de proceso: 14060
+PSVersion: 5.1.18362.628
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.628
+BuildVersion: 10.0.18362.628
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es D:\Users\David Erazo\Documents\PowerShell_transcript.DESKTOP-KNT5JNA.Sv8rppxU.20200317221717.txt
+PS C:\Users\David Erazo> Get-CimInstance win32_networkadapterconfiguration | Select-Object IP
+
+
+Description             : Microsoft Kernel Debug Network Adapter
+Index                   : 0
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : Intel(R) Dual Band Wireless-AC 8265
+Index                   : 1
+IPAddress               : {10.172.202.149, fe80::d494:f241:27e7:7f3e}
+IPConnectionMetric      : 50
+IPEnabled               : True
+IPFilterSecurityEnabled : False
+
+Description             : Microsoft Wi-Fi Direct Virtual Adapter
+Index                   : 2
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (SSTP)
+Index                   : 3
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (IKEv2)
+Index                   : 4
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (L2TP)
+Index                   : 5
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (PPTP)
+Index                   : 6
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (PPPOE)
+Index                   : 7
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (IP)
+Index                   : 8
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (IPv6)
+Index                   : 9
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : WAN Miniport (Network Monitor)
+Index                   : 10
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : Microsoft Wi-Fi Direct Virtual Adapter
+Index                   : 11
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : Kaspersky Security Data Escort Adapter
+Index                   : 12
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : Bluetooth Device (Personal Area Network)
+Index                   : 13
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : Apple Mobile Device Ethernet
+Index                   : 14
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+Description             : RAS Async Adapter
+Index                   : 15
+IPAddress               :
+IPConnectionMetric      :
+IPEnabled               : False
+IPFilterSecurityEnabled :
+
+
+
+PS C:\Users\David Erazo> Get-WmiObject win32_quickficengineering
+Get-WmiObject : Clase no válida "win32_quickficengineering"
+En línea: 1 Carácter: 1
++ Get-WmiObject win32_quickficengineering
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidType: (:) [Get-WmiObject], ManagementException
+    + FullyQualifiedErrorId : GetWMIManagementException,Microsoft.PowerShell.Commands.GetWmiObjectCommand
+Get-WmiObject : Clase no válida "win32_quickficengineering"
+En línea: 1 Carácter: 1
++ Get-WmiObject win32_quickficengineering
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidType: (:) [Get-WmiObject], ManagementException
+    + FullyQualifiedErrorId : GetWMIManagementException,Microsoft.PowerShell.Commands.GetWmiObjectCommand
+
+PS C:\Users\David Erazo> Get-WmiObject win32_quickfixengineering
+
+Source        Description      HotFixID      InstalledBy          InstalledOn
+------        -----------      --------      -----------          -----------
+DESKTOP-KN... Update           KB4534132     NT AUTHORITY\SYSTEM  15/02/2020 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4503308                          9/07/2019 12:00:00 a. m.
+DESKTOP-KN... Update           KB4506472                          9/07/2019 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4509096                          9/07/2019 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4515383     NT AUTHORITY\SYSTEM  9/10/2019 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4516115     NT AUTHORITY\SYSTEM  10/10/2019 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4521863     NT AUTHORITY\SYSTEM  11/10/2019 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4524569     NT AUTHORITY\SYSTEM  16/11/2019 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4528759     NT AUTHORITY\SYSTEM  22/01/2020 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4537759     NT AUTHORITY\SYSTEM  15/02/2020 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4538674     NT AUTHORITY\SYSTEM  13/02/2020 12:00:00 a. m.
+DESKTOP-KN... Security Update  KB4541338     NT AUTHORITY\SYSTEM  12/03/2020 12:00:00 a. m.
+DESKTOP-KN... Update           KB4551762     NT AUTHORITY\SYSTEM  15/03/2020 12:00:00 a. m.
+
+
+PS C:\Users\David Erazo> Get-WmiObject win32_service | Select-Object status, startmode, systemname
+
+status startmode systemname
+------ --------- ----------
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Disabled  DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Disabled  DESKTOP-KNT5JNA
+OK     Disabled  DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Disabled  DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Disabled  DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Disabled  DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Manual    DESKTOP-KNT5JNA
+OK     Auto      DESKTOP-KNT5JNA
+
+
+PS C:\Users\David Erazo> Get-CimClass -Namespace root/SecurityCenter2 | where -Filter {$_.CimClassName -like "*product*"}
+
+
+   NameSpace: ROOT/SecurityCenter2
+
+CimClassName                        CimClassMethods      CimClassProperties
+------------                        ---------------      ------------------
+AntiSpywareProduct                  {}                   {displayName, instanceGuid, pathToSignedProductExe, pathToSignedReportingExe...}
+AntiVirusProduct                    {}                   {displayName, instanceGuid, pathToSignedProductExe, pathToSignedReportingExe...}
+FirewallProduct                     {}                   {displayName, instanceGuid, pathToSignedProductExe, pathToSignedReportingExe...}
+
+
+PS C:\Users\David Erazo> Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntiSpywareProduct | Select-Object displayName
+PS C:\Users\David Erazo> Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntiSpywareProduct | Select-Object displayName
+PS C:\Users\David Erazo> Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntiVirusProduct | Select-Object displayName
+
+displayName
+-----------
+Windows Defender
+Kaspersky Internet Security
+
+
+PS C:\Users\David Erazo> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20200317222842
+**********************
