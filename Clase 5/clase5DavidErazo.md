@@ -15,6 +15,7 @@
 ```powershell
     Get-WmiObject win32_quickfixengineering
 ```
+##### Existen diferencias en los métodos y propiedades pero el listado es el mismo. 
 
 #### 3.Empleando WMI, muestre una lista de servicios, que incluya su status actual, su modalidad de inicio, y las cuentas que emplean para hacer login.
 
@@ -34,6 +35,7 @@
 ```powershell
     Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntiSpywareProduct | Select-Object displayName
 ```
+##### El PC en el cual trabajo no cuenta con aplicaciones antispyware instaladas en el sistema
 
 ##### Antivirus
 ```powershell
